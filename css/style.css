@@ -45,6 +45,7 @@ img {
     border: 0;
     margin: 0;
     padding: 0;
+    /* display: block, max-width: 100%, height: auto; */
 }
 
 
@@ -77,7 +78,6 @@ img {
     line-height: 1.19;
     letter-spacing: 0.03em;
     color: var(--accent-text-color);
-    margin-right: 93px;
 }
 
 .logo-second {
@@ -93,6 +93,7 @@ img {
 
 .header-list {
     display: flex;
+    margin-left: 93px;
 }
 
 .header-item {
@@ -228,7 +229,7 @@ img {
     line-height: 1.16;
     text-align: center;
     letter-spacing: 0.03em;
-    padding-bottom: 50px;
+    margin-bottom: 50px;
 }
 
 .about-list {
@@ -320,6 +321,10 @@ img {
     background-color: #2F303A;
 }
 
+.footer-addres-block {
+    margin-top: 30px;
+}
+
 /* .footer-item {} */
 
 .footer-address {
@@ -328,7 +333,6 @@ img {
     line-height: 1.71;
     letter-spacing: 0.03em; 
     color: var(--title-text-color);
-    margin-top: 30px;
 }
 
 .footer-mail, 
@@ -368,8 +372,7 @@ img {
 /*-- линия --*/
 
 .line {
-    border: 1px solid #ECECEC;
-    margin: 0;
+    border-bottom: 1px solid #ECECEC;
 }
 
 /*-- секция кнопок и работ --*/
